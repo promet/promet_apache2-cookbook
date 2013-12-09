@@ -35,7 +35,7 @@ In your Vagrantfile, leverage these contrib attributes:
 Attributes
 ----------
 
-No additional recipes yet.
+No additional attributes yet.
 
 Recipes
 -------

@@ -81,9 +81,6 @@ Vagrant.configure("2") do |config|
   # config.berkshelf.except = []
   config.vm.provision :chef_solo do |chef|
     chef.json = {
-	:apt => {
-	  :compiletime => "true" 
-        },
   	:apache => {
     	  :ext_status => "true",
           :listen_ports => ["80", "443"],
