@@ -112,14 +112,7 @@ Vagrant.configure("2") do |config|
 
     chef.run_list = [
     	"recipe[apt]",
-    	"recipe[apache2]",
-    	"recipe[apache2::mod_php5]",
-    	"recipe[apache2::mod_ssl]",
-    	"recipe[apache2::mod_rewrite]",
-    	"recipe[apache2::mod_expires]",
-    	"recipe[apache2::mod_deflate]",
-    	"recipe[apache2::mod_status]",
-    	"recipe[apache2::mod_headers]",
+    	"recipe[promet_apache2]",
         "recipe[php]",
     	"recipe[php::module_gd]",
     	"recipe[php::module_memcache]",
