@@ -6,8 +6,7 @@ Vagrant.configure("2") do |config|
   # options are documented and commented below. For a complete reference,
   # please see the online documentation at vagrantup.com.
 
-#  config.vm.hostname = "promet_php-cookbook-berkshelf"
-
+  config.vm.hostname = "promet_apache2-cookbook-berkshelf"
   config.omnibus.chef_version = :latest
 
   #config.vm.synced_folder ".", "/home/vagrant/kirkberk", :nfs => true
