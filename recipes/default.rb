@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: promet_apache2
+# Cookbook Name:: promet_apache2-cookbook
 # Recipe:: default
 #
 # Copyright (C) 2013 gregpalmier
